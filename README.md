@@ -6,11 +6,11 @@ $ dpkg --print-foreign-architectures
 $ dpkg --print-architecture
 ```
 ```
-$ sudo dpkg --force-all -remove-architecture aarch64
+$ sudo dpkg --force-all --remove-architecture aarch64
 ```
 or
 ```
-$ sudo dpkg --force-all -remove-architecture arm64
+$ sudo dpkg --force-all --remove-architecture arm64
 ```
 
 # Reference
